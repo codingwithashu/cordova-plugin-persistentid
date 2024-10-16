@@ -13,5 +13,13 @@
     "cordova-android"
   ],
   "author": "Ashutosh Gupta",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingwithashu/cordova-plugin-persistentid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codingwithashu/cordova-plugin-persistentid/issues"
+  },
+  "homepage": "https://github.com/codingwithashu/cordova-plugin-persistentid#readme"
 }
