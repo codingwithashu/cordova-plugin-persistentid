@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-persistentid",
+  "version": "0.0.1",
+  "description": "Cordova Plugin for Persistent Device Identifier",
+  "cordova": {
+    "id": "cordova-plugin-persistentid",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Ashutosh Gupta",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-persistent-id" version="1.0.0">
+    <name>PersistentId</name>
+    <description>Cordova Persistent ID Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device,uuid</keywords>
+
+    <js-module src="www/persistentId.js" name="persistentId">
+        <clobbers target="persistentId" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PersistentIdPlugin">
+                <param name="android-package" value="com.example.plugin.PersistentIdPlugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PersistentIdPlugin.java" target-dir="src/com/example/plugin" />
+    </platform>
+</plugin>
