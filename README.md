@@ -16,13 +16,13 @@ The Cordova Persistent ID Plugin provides a robust solution for generating and m
 To install this plugin, run the following command in your Cordova project:
 
 ```bash
-cordova plugin add cordova-plugin-persistent-id
+cordova plugin add cordova-plugin-persistentid
 ```
 
 For Ionic projects, use:
 
 ```bash
-ionic cordova plugin add cordova-plugin-persistent-id
+ionic cordova plugin add cordova-plugin-persistentid
 ```
 
 ## Usage
